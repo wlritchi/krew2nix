@@ -78,8 +78,8 @@ let
   krewIndex = fetchFromGitHub {
     owner = "kubernetes-sigs";
     repo = "krew-index";
-    rev = "400c05bc0e4e64a287a8773435d5d4f45dd615d2";
-    sha256 = "sha256-fIgenKymQO9qD1GQRysB1GRWfdGiMVp88X/MVks8ClE=";
+    rev = "b8e37bda442e7ab7ecf7b1f7ab88d1006c684860";
+    sha256 = "sha256-bbAopeDJFmbHxhkFhvp03Jca0/WcyMXRR3DChdO3eYo=";
   };
   allPluginDefinitions = filesystem.listFilesRecursive "${krewIndex}/plugins";
   # Krew is using Golang terminology when listing plugin artifacts by platform.
