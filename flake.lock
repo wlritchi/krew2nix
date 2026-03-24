@@ -18,6 +18,22 @@
         "type": "github"
       }
     },
+    "krew-index": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1774309694,
+        "narHash": "sha256-bbAopeDJFmbHxhkFhvp03Jca0/WcyMXRR3DChdO3eYo=",
+        "owner": "kubernetes-sigs",
+        "repo": "krew-index",
+        "rev": "b8e37bda442e7ab7ecf7b1f7ab88d1006c684860",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes-sigs",
+        "repo": "krew-index",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1774273680,
@@ -35,6 +51,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "krew-index": "krew-index",
         "nixpkgs": "nixpkgs"
       }
     },
